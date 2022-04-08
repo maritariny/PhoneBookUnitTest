@@ -64,7 +64,6 @@ public class TestPhoneBook {
     @Test
     public void testAddContactToGroup() {
         // given: arrange
-        String n = "+79110001111", expected = "Пушкин";
 
         // when: act
         Contact contact = new Contact("Пушкин", "+79212221111");
